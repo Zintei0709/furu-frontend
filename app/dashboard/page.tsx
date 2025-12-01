@@ -2,7 +2,6 @@
 
 import { MarketOverview } from "@/components/market-overview";
 import { LearningProgressSummary } from "@/components/learning-progress-summary";
-import { ContinueLearning } from "@/components/continue-learning";
 import { AIInsights } from "@/components/ai-insights";
 import { TradingFeed } from "@/components/trading-feed";
 import { PlanUpgrade } from "@/components/plan-upgrade";
@@ -74,7 +73,6 @@ export default function DashboardPage() {
         {/* Left Column - Learning Progress & Education */}
         <div className="lg:col-span-2 space-y-6">
           <LearningProgressSummary plan={user?.plan || "free"} />
-          <ContinueLearning plan={user?.plan || "free"} />
           <MarketOverview plan={user?.plan || "free"} />
           <AIInsights plan={user?.plan || "free"} />
         </div>
