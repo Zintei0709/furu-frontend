@@ -1,0 +1,2 @@
+NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=845595942410-e33a25q68t6ib0s01nap3m1e7onuqin9.apps.googleusercontent.com
